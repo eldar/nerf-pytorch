@@ -9,7 +9,7 @@ experiment:
   # Number of training iterations.
   train_iters: 200000
   # Number of training iterations after which to validate.
-  validate_every: 100
+  validate_every: 1000
   # Number of training iterations after which to checkpoint.
   save_every: 5000
   # Number of training iterations after which to print progress.
@@ -20,7 +20,7 @@ dataset:
   # Type of dataset (Blender vs LLFF vs DeepVoxels vs something else)
   type: blender
   # Base directory of dataset.
-  basedir: cache/nerf_synthetic/lego
+  basedir: data/nerf_synthetic/lego
   # Optionally, provide a path to the pre-cached dataset dir. This
   # overrides the other dataset options.
   cachedir: cache/legocache200
