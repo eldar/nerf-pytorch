@@ -20,7 +20,7 @@ dataset:
   # Type of dataset (Blender vs LLFF vs DeepVoxels vs something else)
   type: blender
   # Base directory of dataset.
-  basedir: data/nerf_synthetic/lego
+  basedir: cache/nerf_synthetic/lego
   # Optionally, provide a path to the pre-cached dataset dir. This
   # overrides the other dataset options.
   cachedir: cache/legocache200
